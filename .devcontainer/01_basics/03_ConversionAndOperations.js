@@ -29,3 +29,5 @@ let StringToNumber = String(SomeNumber)
 
 console.log(StringToNumber);
 console.log(typeof StringToNumber);
+
+// ***************** Operations ************************* //
