@@ -22,4 +22,5 @@ let isLoggedin = false
 
 // Objects
 
-console.log(typeof undefined)
+console.log(isLoggedin)
+console.log(typeof isLoggedin)
