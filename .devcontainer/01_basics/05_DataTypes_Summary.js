@@ -34,5 +34,30 @@ console.log(typeof myFuncval); // Return type is Object Function
 console.log(typeof heroes); // Return Object as type
 console.log(typeof AnotherId); // Return Symbol as type
 
+// *******************************************************
+// Memories in JS
+// Stack (Primitive Type) - You get a copy
+// Heap (Non Primitive) - You get a reference
 
+let myYoutubeName = "VikasKhandelOfficial"
+let AnotherName = myYoutubeName
+AnotherName = "Vicky"
+
+// console.log(myYoutubeName);
+// console.log(AnotherName);
+
+let userOne = {
+    email: "user1@gmail.com",
+    upi: "lele@ybl.com"
+}
+
+console.log(userOne.email);
+
+let userTwo = userOne
+
+console.log(userTwo.email);
+
+userTwo.email = "vikvikv@gmail.com"
+console.log(userTwo.email); // Value changed as it is stored in reference
+console.log(userOne.email); // Value changed as it is stored in reference
 
