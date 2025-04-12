@@ -31,3 +31,17 @@ console.log(StringToNumber);
 console.log(typeof StringToNumber);
 
 // ***************** Operations ************************* //
+
+let value = 3
+// console.log(-value)
+
+// console.log("1"+ 2 + 2)
+// console.log(1  + 3 + "2233")
+
+console.log(+true)
+console.log(+"true")
+
+let gcounter = 100
+// gcounter++
+console.log(gcounter++);
+console.log(gcounter++);
